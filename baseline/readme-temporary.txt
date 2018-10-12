@@ -20,6 +20,6 @@ Delete the rows which have no parent content. The size of database(2015-05.db) i
 
 Create files that are basically ‘comment(parent)’ and ‘reply’ text files, where each line is the sample.
 
-In the ‘train’ file, there are two files, ’train.from’ and ‘train.to’, which correspond to each other line by line.
+In the ‘train’ file, there are two files, ’train.from’(302 MB) and ‘train.to’(276 MB), which correspond to each other line by line.
 
-In the ‘test’ file, there are two files, ‘test.from’ and ‘test.to’, which correspond to each other line by line.
+In the ‘test’ file, there are two files, ‘test.from’(433 KB) and ‘test.to’(403 KB), which correspond to each other line by line.
