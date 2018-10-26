@@ -1,6 +1,6 @@
-# Create Database
+# Chatbot Baseline
 
----
+## Create Database
 
 - The reddit datasets are all json objects.
 
@@ -18,13 +18,10 @@
 
 - Delete the rows which have no parent content. The size of database(2015-05.db) is 908 MB.
 
-# Create Training and Testing Data
-
----
+## Create Training and Testing Data
 
 - Create files that are basically ‘comment(parent)’ and ‘reply’ text files, where each line is the sample.
 
 - In the ‘train’ file, there are two files, ’train.from’(302 MB) and ‘train.to’(276 MB), which correspond to each other line by line.
 
-# Build encoder-decoder model with Attention Mechanism for Chatbot.
----
+## Build encoder-decoder model with Attention Mechanism for Chatbot.
