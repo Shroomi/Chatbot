@@ -10,7 +10,7 @@
 
 - The size of cleaned reddit data is 166,2 MB after processing 'RC_2015-05.bz2'. I have uploaded the first 200 lines of cleaned data here. It is in the directory 'baseline/Data/Corpus/RedditData/standard/reddit_cleaned_200.txt'. You can check it.
 
-- Preprocess the data so that it can be handled by tensorflow TextLineDataSet. The code of preprocessing reddit data is in the directory 'baseline/Data/Corpus/preprocessor.py'. The generated file is called 'reddit_cleaned_new.txt'.
+- Preprocess the data so that it can be handled by tensorflow TextLineDataSet. The code of preprocessing reddit data is in the directory 'baseline/Data/Corpus/preprocessor.py'. The generated file should be called 'reddit_cleaned_new.txt'.
 
 ## 2. Create Training and Testing Data
 
