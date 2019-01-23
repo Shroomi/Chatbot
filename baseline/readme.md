@@ -20,4 +20,4 @@
 
 ## 2. Create Training and Testing Data
 
-## 3. Build encoder-decoder model with Attention Mechanism for Chatbot.
+## 3. Build encoder-decoder model with Attention Mechanism for Chatbot. The size of vocabulary for reddit data 'RC_2015-05' is 228349.
