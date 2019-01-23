@@ -16,8 +16,8 @@
 
 - Preprocess the data so that it can be handled by tensorflow TextLineDataSet. The code of preprocessing reddit data is in the directory 'baseline/Data/Corpus/preprocessor.py'. The generated file should be called 'reddit_cleaned_new.txt'.
 
-- Generate vocabulary. The code is in 'baseline/Data/Corpus/vocabgenerator.py'.
+- Generate vocabulary. The code is in 'baseline/Data/Corpus/vocabgenerator.py'. The size of vocabulary for reddit data 'RC_2015-05' is 228349.
 
 ## 2. Create Training and Testing Data
 
-## 3. Build encoder-decoder model with Attention Mechanism for Chatbot. The size of vocabulary for reddit data 'RC_2015-05' is 228349.
+## 3. Build encoder-decoder model with Attention Mechanism for Chatbot. 
