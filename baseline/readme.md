@@ -62,7 +62,7 @@
   ssh -L 16006:127.0.0.1:6006 (username)@(remote_server_ip)
   tensorboard --logdir="run" --port=6006
 ```
-input 127.0.0.1:16006 in the local browser
+  input 127.0.0.1:16006 in the local browser
 
 ## Refenrence
 - [Opennmt-tf Tool Document(Quickstart)](http://opennmt.net/OpenNMT-tf/quickstart.html)
