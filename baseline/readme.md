@@ -24,7 +24,7 @@
 
 - Install OpenNMT-tf
 ```linux
-	virtualenv --system-site-package -p python3 ./transformerenv
+  virtualenv --system-site-package -p python3 ./transformerenv
 ```
 
 
