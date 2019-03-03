@@ -23,7 +23,9 @@
 ### (1) Use OpenNMT-tf Tool to Build the Transformer Model
 
 - Install OpenNMT-tf
--- virtualenv --system-site-package -p python3 ./transformerenv
+```linux
+virtualenv --system-site-package -p python3 ./transformerenv
+```
 
 
 ## Refenrence
