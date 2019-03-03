@@ -39,6 +39,24 @@
     onmt-build-vocab --size 5000 --save_vocab tgt-vocab.txt tgt-train.txt
   ```
 
+  - Create YAML configuration file, let's name it data.yml. More details are in [OpenNMT-tf Configuration](http://opennmt.net/OpenNMT-tf/configuration_reference.html)
+  ```linux
+    model_dir: run/
+
+    data:
+    	train_features_file: src-train.txt
+    	train_labels_file: tgt-train.txt
+    	eval_features_file: src-val.txt
+    	eval_labels_file: tgt-val.txt
+    	source_words_vocabulary: src-vocab.txt
+    	target_words_vocabulary: tgt-vocab.txt
+  ```
+
+- Train the model
+```linux
+  CUDA_VISIBLE_DEVICES=? onmt-main train_and_eval --model_type Transformer --config data.yml --auto_config
+```
+
 
 ## Refenrence
 - [Opennmt-tf Tool Document(Quickstart)](http://opennmt.net/OpenNMT-tf/quickstart.html)
