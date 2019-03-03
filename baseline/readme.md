@@ -18,6 +18,13 @@
 
 - Generate vocabulary. The code is in 'baseline/Data/Corpus/vocabgenerator.py'. The size of vocabulary for reddit data 'RC_2015-05' is 228349.
 
-## 2. Create Training and Testing Data
+## 2. Build the Model
 
-## 3. Build encoder-decoder model with Attention Mechanism for Chatbot. 
+### (1) Use OpenNMT-tf Tool to Build the Transformer Model
+
+- Install OpenNMT-tf
+-- virtualenv --system-site-package -p python3 ./transformerenv
+
+
+## Refenrence
+- [Opennmt-tf Tool Document](http://opennmt.net/OpenNMT-tf/quickstart.html)
