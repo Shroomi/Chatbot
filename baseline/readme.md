@@ -25,7 +25,19 @@
 - Install OpenNMT-tf
 ```linux
   virtualenv --system-site-package -p python3 ./transformerenv
+  source transformerenv/bin/activate
+  pip install OpenNMT-tf[tensorflow-gpu]
 ```
+
+- Prepare the data for OpenNMT tool
+  - Split the questions and answers in two different files, and generate train, eval and test data by using the code 'baseline/Data/Corpus/splitQA.py'.
+
+  - Build the source and target word vocabularies from the training files
+  ```linux
+    cd baseline/Data/Corpus/Augment0
+    onmt-build-vocab --size 5000 --save_vocab src-vocab.txt src-train.txt
+    onmt-build-vocab --size 5000 --save_vocab tgt-vocab.txt tgt-train.txt
+  ```
 
 
 ## Refenrence
