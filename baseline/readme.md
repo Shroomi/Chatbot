@@ -24,9 +24,9 @@
 
 - Install OpenNMT-tf
 ```linux
-virtualenv --system-site-package -p python3 ./transformerenv
+	virtualenv --system-site-package -p python3 ./transformerenv
 ```
 
 
 ## Refenrence
-- [Opennmt-tf Tool Document](http://opennmt.net/OpenNMT-tf/quickstart.html)
+- [Opennmt-tf Tool Document(Quickstart)](http://opennmt.net/OpenNMT-tf/quickstart.html)
