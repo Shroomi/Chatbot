@@ -39,7 +39,7 @@
     onmt-build-vocab --size 5000 --save_vocab tgt-vocab.txt tgt-train.txt
   ```
 
-  - Create YAML configuration file, let's name it data.yml. More details are in [OpenNMT-tf Configuration](http://opennmt.net/OpenNMT-tf/configuration_reference.html)
+  - Create YAML configuration file, let's name it data.yml. More details are in [OpenNMT-tf Configuration](http://opennmt.net/OpenNMT-tf/configuration.html)
   ```linux
     model_dir: run/
 
