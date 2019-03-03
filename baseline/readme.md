@@ -64,5 +64,7 @@
   #input 127.0.0.1:16006 in the local browser
 ```
 
+- The training and evaluation result is in the directory 'baseline/Transformer/1st_experiment/' with different vocabulary sizes but using the same data set 'RC_2015-05'. 
+
 ## Refenrence
 - [Opennmt-tf Tool Document(Quickstart)](http://opennmt.net/OpenNMT-tf/quickstart.html)
